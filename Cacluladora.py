@@ -11,7 +11,7 @@ def division(a, b):
     if b != 0:
         return a / b
     else:
-        return "Error: División por cero"
+        return "División por cero"
 
 def calculadora():
     print("Bienvenido a la calculadora")
@@ -21,7 +21,7 @@ def calculadora():
     print("3. Multiplicación")
     print("4. División")
 
-    opcion = input("Elige una operación (1/2/3/4): ")
+    opcion = input("Elige una operación: ")
 
     num1 = float(input("Ingresa el primer número: "))
     num2 = float(input("Ingresa el segundo número: "))
